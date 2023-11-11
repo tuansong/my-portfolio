@@ -4,7 +4,7 @@ import { fileURLToPath } from 'url';
 export default defineNuxtConfig({
   mode: 'static',
   app: {
-    baseURL: '/my-portfolio /',
+    baseURL: '/my-portfolio/',
     buildAssetsDir: 'assets',
     head: {
       title: 'TusoTr',
