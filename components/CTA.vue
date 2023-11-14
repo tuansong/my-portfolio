@@ -10,7 +10,7 @@
               Interested? Make an enquiry.
             </h1>
             <p class="text-neutral-300 dark:text-neutral-200 mb-3">
-              Check my CV if you want to see more about me! <a class="form-label tracking-wide text-gray-700 font-bold" href="/[Resume] Tran Tuan Song.pdf" download="">Click Here</a>
+              Check my CV if you want to see more about me! <a class="form-label tracking-wide text-gray-700 font-bold" href="[Resume] Tran Tuan Song.pdf" download="">Click Here</a>
             </p>
             <p>
               Telephone : <span class="form-label tracking-wide text-gray-70 font-bold"><a href="tel:+4733378901">+84 941527375</a></span>

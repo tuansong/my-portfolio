@@ -20,25 +20,25 @@ const projects = [
     {
         title: 'Ekino',
         description: 'At Ekino I worked as Quality Control Assurance for checking Accor Hotel Booking Platform',
-        image: '/images/ekino.png',
+        image: 'images/ekino.png',
         url: 'https://www.ekino.vn/'
     },
     {
         title: 'CoderSchool',
         description: 'With CoderSchool I studied here and became a teaching assistant for Web Design Foundamental class',
-        image: '/images/coderschool.png',
+        image: 'images/coderschool.png',
         url: 'https://www.coderschool.vn/en'
     },
     {
         title: 'Wizylance',
         description: 'I help my friend build this website and support Wizylance to hire freelancer',
-        image: '/images/wizylance.png',
+        image: 'images/wizylance.png',
         url: 'http://www.wizylance.com/'
     },
     {
         title: 'I-ON Digital Corp',
         description: 'At Ion, we build ICE which is web builder and CMS for E-commerce website. Most of our clients are Korean big tech companies',
-        image: '/images/ion.png',
+        image: 'images/ion.png',
         url: 'https://www.i-on.net/eng/index.html'
     },
     {
