@@ -31,7 +31,7 @@ export default defineNuxtConfig({
     }
   },
   devtools: { enabled: true },
-  css: ['~/assets/css/main.css'],
+  css: ['~/assets/css/tailwind.scss'],
   postcss: {
     plugins: {
       tailwindcss: {},
@@ -41,5 +41,18 @@ export default defineNuxtConfig({
   plugins: [{ src: "./plugins/aos.client.ts", ssr: false }],
   alias: {
     'images': fileURLToPath(new URL('./assets/images', import.meta.url))
-  }
+  },
+  modules: ['@nuxtjs/color-mode'],
+  colorMode: {
+    classSuffix: '',
+    preference: 'dark',
+  },
+  tailwindcss: {
+    cssPath: '~/assets/css/tailwind.scss',
+    configPath: 'tailwind.config.js',
+    exposeConfig: false,
+    config: {},
+    injectPosition: 0,
+    viewer: true,
+  },
 })

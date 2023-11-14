@@ -1,11 +1,10 @@
 <template>
     <div id="work" class="relative bg-cover bg-no-repeat lg:text-left px-6 md:px-60 mt-28 md:mt-40">
-        <h1 class="text-5xl tracking-tight md:text-6xl xl:text-5xl font-bold mb-6">Recent Projects & Work</h1>
-        <p class=" mb-6">Here a few things I've been working on lately</p>
+        <h1 class="work-title text-5xl tracking-tight md:text-6xl xl:text-5xl font-bold mb-6 text-[#333] dark:text-[wheat]">Recent Projects & Work</h1>
+        <p class="mb-6">Here a few things I've been working on lately</p>
         <div class=" grid grid-cols-1 md:grid-cols-3 gap-10">
             <NuxtLink v-for="project in projects" :key="project.title" :to="project.url" target="_blank">
                 <Card 
-                    :title="project.title" 
                     :description="project.description" 
                     :image="project.image"
                 />
@@ -44,7 +43,7 @@ const projects = [
     },
     {
         title: 'Metaflyer',
-        description: 'CRM and automation marketing platform based on ICE builder',
+        description: 'The CRM and automation marketing platform based on ICE builder',
         image: 'https://www.metaflyer.io/metaflyer/images/meta_logo.svg',
         url: 'https://www.metaflyer.io/'
     }
