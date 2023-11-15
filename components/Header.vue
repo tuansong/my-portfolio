@@ -2,11 +2,9 @@
   <header>
     <nav class="fixed w-full z-10 md:py-6 py-4 transition-colors text-white" :class="background">
       <div
-        class="md:px-60 flex flex-wrap justify-between items-center w-full"
+        class="md:px-60 flex flex-wrap justify-end items-center w-full"
       >
-        <a href="#" class="flex items-center">
-        </a>
-        <div class="flex items-center lg:order-2">
+        <div class="action-btn flex items-center lg:order-2">
           <a
             href="#"
             class="font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 "
